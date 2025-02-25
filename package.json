@@ -1,0 +1,40 @@
+{
+  "name": "react_challenge",
+  "version": "1.0.0",
+  "description": "React challenge in 10hrs",
+  "type": "module",
+  "keywords": [
+    "typescript",
+    "react",
+    "starter"
+  ],
+  "main": "src/index.tsx",
+  "dependencies": {
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "styled-components": "6.1.15",
+    "@reduxjs/toolkit": "2.5.0",
+    "react-redux": "9.2.0",
+    "react-loading-skeleton": "3.5.0",
+    "react-lazy-load-image-component": "1.6.3",
+    "@types/react-lazy-load-image-component": "1.6.4"
+  },
+  "devDependencies": {
+    "@types/react": "18.2.38",
+    "@types/react-dom": "18.2.15",
+    "typescript": "4.4.4",
+    "vite": "^5.0.11",
+    "@vitejs/plugin-react": "^4.2.1"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
